@@ -8,5 +8,9 @@
   "devDependencies": {
     "@types/next": "^8.0.7",
     "babel-plugin-styled-components": "^2.1.4"
+  },
+  "scripts": {
+    "vercel-build": "next build"
   }
 }
+
