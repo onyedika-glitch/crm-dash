@@ -1,4 +1,7 @@
 {
+  scripts": {
+    "vercel-build": "next build"
+  },
   "dependencies": {
     "@next/font": "^14.2.15",
     "next": "^12.2.5",
@@ -11,8 +14,6 @@
     "@types/next": "^8.0.7",
     "babel-plugin-styled-components": "^2.1.4"
   },
-  "scripts": {
-    "vercel-build": "next build"
   }
 }
 
