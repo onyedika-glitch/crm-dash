@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AnotherPage from './pages/AnotherPage';
@@ -15,4 +15,7 @@ const App = () => {
     );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);
+
