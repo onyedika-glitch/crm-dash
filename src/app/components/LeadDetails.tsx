@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
                 
             const LeadDetails: React.FC = () => {
                     return (
@@ -11,21 +12,21 @@ import React from 'react';
                             </ul>
                             <div className="flex space-x-4 mb-4">
                                 <div className="flex items-center space-x-2">
-                                    <img src="https://placehold.co/50x50" alt="Decision maker" className="w-12 h-12" />
+                                    <Image src="https://placehold.co/50x50" alt="Decision maker" className="w-12 h-12" />
                                     <div>
                                         <p className="text-gray-500">Decision maker</p>
                                         <p className="font-semibold">Yes</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <img src="https://placehold.co/50x50" alt="Potential deal value" className="w-12 h-12" />
+                                    <Image src="https://placehold.co/50x50" alt="Potential deal value" className="w-12 h-12" />
                                     <div>
                                         <p className="text-gray-500">Potential deal value</p>
                                         <p className="font-semibold">$1M</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                    <img src="https://placehold.co/50x50" alt="Intent" className="w-12 h-12" />
+                                    <Image src="https://placehold.co/50x50" alt="Intent" className="w-12 h-12" />
                                     <div>
                                         <p className="text-gray-500">Intent</p>
                                         <p className="font-semibold">High</p>
