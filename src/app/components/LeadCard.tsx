@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface LeadCardProps {
   name: string;
@@ -12,7 +13,7 @@ const LeadCard: React.FC<LeadCardProps> = ({ name, title, description, buttonTex
   return (
  <div className="flex-1 bg-gray-100 p-4 rounded-lg">
   <div className="flex items-center mb-2">
-   <img alt="{name}" className="rounded-full mr-2" src="{imageUrl}"/>
+   <Image alt={name} className="rounded-full mr-2" src={imageUrl} width={50} height={50} />
    <div>
     <p className="font-bold">
      {name}
@@ -33,3 +34,4 @@ const LeadCard: React.FC<LeadCardProps> = ({ name, title, description, buttonTex
 };
 
 export default LeadCard;
+
