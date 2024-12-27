@@ -1,5 +1,5 @@
 import React from 'react';
-                import ReactDOM from 'react-dom';
+                import {createRoot} from 'react-dom/client';
                 import EngagePage from './pages/EngagePage';
                 
                 const App = () => {
@@ -11,8 +11,6 @@ import React from 'react';
                 );
                 };
                 
-                ReactDOM.render(
-                <App>
-                </App>
-                , document.getElementById('app'));
-                
+                const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);
