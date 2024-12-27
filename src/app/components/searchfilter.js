@@ -18,7 +18,7 @@ const SearchFilter = ({ onFilter }) => {
   };
 
   return (
-    <input
+    <SearchInput
       type="text"
       placeholder="Search leads..."
       value={query}
