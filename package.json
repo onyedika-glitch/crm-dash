@@ -1,7 +1,8 @@
 {
   "scripts": {
     "vercel-build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build": "next build"
   },
   "dependencies": {
     "@next/font": "^14.2.15",
