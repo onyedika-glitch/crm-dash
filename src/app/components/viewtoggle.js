@@ -23,7 +23,7 @@ const ViewToggle = ({ onToggle }) => {
   };
 
   return (
-    <TogggleButton onClick={toggleView}>
+    <ToggleButton onClick={toggleView}>
       {isListView ? 'Switch to Chart View' : 'Switch to List View'}
     </ToggleButton>
   );
