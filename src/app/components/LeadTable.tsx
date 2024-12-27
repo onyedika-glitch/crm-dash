@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface Lead {
   name: string;
@@ -25,7 +26,7 @@ const LeadTable: React.FC = () => {
   <section className="bg-white p-6 rounded-lg shadow">
    <div className="flex items-center mb-4">
     <input className="flex-1 p-2 border rounded" placeholder="Sort, filter and search with Copilot" type="text"/>
-    <img alt="Copilot icon" className="ml-2" height="20" src="https://storage.googleapis.com/a1aa/image/LAee0yLDUOvULU5Ll8rWvHEyepeeFCcMDXJzjv4RNodscyvfE.jpg" width="20"/>
+    <Image alt="Copilot icon" className="ml-2" height="20" src="https://storage.googleapis.com/a1aa/image/LAee0yLDUOvULU5Ll8rWvHEyepeeFCcMDXJzjv4RNodscyvfE.jpg" width="20"/>
    </div>
    <table className="w-full text-left">
     <thead>
