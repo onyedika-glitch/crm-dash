@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
                 
 const LeadDetails = () => {
     return (
@@ -31,7 +32,7 @@ const LeadDetails = () => {
  </ul>
  <div classname="flex space-x-4 mb-4">
   <div classname="flex items-center space-x-2">
-   <img alt="Decision maker" classname="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/islq0cHRWfTXUidbEr4lEtmVqIdw9UZD58qKAkR2UpTeRf7nA.jpg" width="50"/>
+   <Image alt="Decision maker" classname="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/islq0cHRWfTXUidbEr4lEtmVqIdw9UZD58qKAkR2UpTeRf7nA.jpg" width="50"/>
    <div>
     <p classname="text-gray-500">
      Decision maker
@@ -42,7 +43,7 @@ const LeadDetails = () => {
    </div>
   </div>
   <div classname="flex items-center space-x-2">
-   <img alt="Potential deal value" classname="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/cLU51n7Xb24vO9f9AoGfIF2bILtAVNRH4VQb8xKT7FS5Rf7nA.jpg" width="50"/>
+   <Image alt="Potential deal value" classname="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/cLU51n7Xb24vO9f9AoGfIF2bILtAVNRH4VQb8xKT7FS5Rf7nA.jpg" width="50"/>
    <div>
     <p classname="text-gray-500">
      Potential deal value
@@ -53,7 +54,7 @@ const LeadDetails = () => {
    </div>
   </div>
   <div classname="flex items-center space-x-2">
-   <img alt="Intent" classname="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/Uq2RKahZ1161F5bTIuv2rX9pQfrcsZH4MQNi2U3PTAO9of9TA.jpg" width="50"/>
+   <Image alt="Intent" classname="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/Uq2RKahZ1161F5bTIuv2rX9pQfrcsZH4MQNi2U3PTAO9of9TA.jpg" width="50"/>
    <div>
     <p classname="text-gray-500">
      Intent
